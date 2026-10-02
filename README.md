@@ -2,8 +2,6 @@
 
 A lightweight, high-performance extension for **[IngeTrazo](https://github.com/ingelibre/ingetrazo)** (Python + PySide6 / Qt) that captures the 3D viewport, sends it to **ComfyUI** using standard API workflows, and renders the AI output directly as an interactive real-time viewport overlay.
 
-https://github.com/user-attachments/assets/ing_comfyui.mp4
-
 <p align="center">
   <video src="video/ing_comfyui.mp4" controls width="100%"></video>
 </p>
