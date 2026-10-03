@@ -3,6 +3,10 @@
 A lightweight, high-performance extension for **[IngeTrazo](https://github.com/ingelibre/ingetrazo)** (Python + PySide6 / Qt) that captures the 3D viewport, sends it to **ComfyUI** using standard API workflows, and renders the AI output directly as an interactive real-time viewport overlay.
 
 <p align="center">
+  <img src="screenshots/comfyui_renderer.jpg" alt="IngeTrazo ComfyUI Viewport Renderer" width="100%">
+</p>
+
+<p align="center">
   <video src="video/ing_comfyui.mp4" controls width="100%"></video>
 </p>
 
@@ -19,7 +23,7 @@ A lightweight, high-performance extension for **[IngeTrazo](https://github.com/i
   - Scaling modes: **Fit** (aspect-ratio preserved), **Fill** (crop/cover), or **Stretch**.
   - Optional subtle HUD badge indicator showing active overlay status and opacity.
 - **Flexible Workflow System (Bundled & Custom Folders):**
-  - Includes ready-to-use bundled API JSON workflows (`flux_canny_api.json`, `sdxl_controlnet_api.json`).
+  - Includes ready-to-use bundled API JSON workflows (`flux_canny_api.json`, `image_anima_lllite_any_control_to_image.json`, `image_qwen_Image_2512_controlnet.json`).
   - **📁 Custom Folder Picker**: Choose any directory of ComfyUI API JSON workflows on your computer; paths persist across sessions.
   - **📄 Single File Browse**: Quickly load and test any standalone ComfyUI API JSON workflow.
   - Intelligently detects and maps `LoadImage`, positive/negative `CLIPTextEncode`, and `KSampler` nodes.
