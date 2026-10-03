@@ -1,0 +1,23 @@
+# IngeTrazo Catalog Entry for ComfyUI Viewport Renderer
+# Copy this file to extensions/comfyui_renderer.toml in https://github.com/ingelibre/ingetrazo-extensions
+
+id = "comfyui_renderer"
+version = "1.0"
+author = "seghier"
+author_url = "https://github.com/seghier"
+license = "GPL-3.0-or-later"
+repository = "https://github.com/seghier/IngeTrazoComfyUIRenderer"
+download = "https://github.com/seghier/IngeTrazoComfyUIRenderer/releases/download/v1.0/comfyui_renderer.zip"
+sha256 = "1869318cd0f2760bc1c41d8f4271ddf5c146e5016a68547bb0ffae28963a7c84"
+tags = ["rendering", "ai", "visualization"]
+screenshot = "comfyui_renderer.png"
+
+[name]
+es = "Renderizador ComfyUI de Ventana Gráfica"
+en = "ComfyUI Viewport Renderer"
+pt = "Renderizador ComfyUI de Viewport"
+
+[summary]
+es = "Renderiza la ventana gráfica 3D con flujos de trabajo de ComfyUI y superpone el resultado en tiempo real con control de opacidad."
+en = "Renders the 3D viewport using ComfyUI workflows and displays real-time AI viewport overlays with opacity blending."
+pt = "Renderiza a viewport 3D usando fluxos ComfyUI e exibe sobreposições de IA em tempo real com controle de opacidade."
