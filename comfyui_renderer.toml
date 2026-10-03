@@ -9,7 +9,8 @@ license = "GPL-3.0-or-later"
 repository = "https://github.com/seghier/IngeTrazoComfyUIRenderer"
 download = "https://github.com/seghier/IngeTrazoComfyUIRenderer/releases/download/v1.0/comfyui_renderer.zip"
 sha256 = "1869318cd0f2760bc1c41d8f4271ddf5c146e5016a68547bb0ffae28963a7c84"
-tags = ["rendering", "ai", "visualization"]
+ingetrazo = "0.5.7"
+tags = ["rendering", "productivity"]
 screenshot = "comfyui_renderer.png"
 
 [name]
